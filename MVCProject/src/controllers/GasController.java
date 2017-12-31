@@ -66,5 +66,21 @@ public class GasController {
 		
 	}
 	
+	@RequestMapping(path="gas/{id}", method=RequestMethod.DELETE)
+	public boolean delete(@PathVariable int id, HttpServletResponse res) {
+		boolean result = gasDAO.delete(id);
+		System.out.println("Controller: " + result);
+		
+		if(result == false) {
+			res.setStatus(400);
+		}
+		else {
+			res.setStatus(201);
+		}
+		
+		return result;
+		
+	}
+	
 	
 }

@@ -50,25 +50,6 @@ public class GasDAOImpl implements GasDAO{
 		return null;
 	}
 	
-//	@Override
-//	public Quiz update(int id, String json) {
-//		ObjectMapper mapper = new ObjectMapper();
-//		
-//		try {
-//			Quiz updateQuiz = mapper.readValue(json, Quiz.class);
-//			Quiz oldQuiz = em.find(Quiz.class, id);
-//			oldQuiz.setName(updateQuiz.getName());
-//			em.persist(oldQuiz);
-////			em.flush();
-//			return oldQuiz;
-//		}
-//		catch(Exception e){
-//			e.printStackTrace();
-//		}
-//		
-//		return null;
-//	}
-	
 	@Override
 	public Gas update(int id, String json) {
 		ObjectMapper mapper = new ObjectMapper();
@@ -94,7 +75,24 @@ public class GasDAOImpl implements GasDAO{
 	@Override
 	public boolean delete(int id) {
 		
+		try {
+			Gas deleteGas = em.find(Gas.class, id);
+			if(deleteGas == null) {
+				return false;
+			}
+			else {
+				em.remove(deleteGas);
+				return true;
+				
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+//			System.out.println("in DAO: false catch exception");
+		}
+		
 		return false;
+		
 	}
 
 }
