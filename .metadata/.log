@@ -1429,3 +1429,570 @@ java.lang.NullPointerException
 	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
 	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:09.997
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:09.998
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:22.235
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:22.236
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:32.873
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:32.873
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:56.768
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:00:56.768
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:01:25.217
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:01:25.218
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:09.410
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:09.411
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:28.814
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:28.814
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:54.098
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:02:54.099
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:03:14.862
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:03:14.862
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:03:35.857
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:03:35.858
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:05:56.662
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:05:56.662
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:06:38.786
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:06:38.786
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:06:54.550
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:06:54.550
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:07:00.765
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:07:00.766
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:07:31.874
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:07:31.874
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:08:36.778
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:08:36.779
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:23:29.853
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:23:29.853
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:23:45.156
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:23:45.156
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:05.151
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:05.152
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:35.710
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:35.711
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:39.458
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:39.458
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:59.734
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:24:59.735
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:25:44.322
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:25:44.322
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:26:19.051
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:26:19.052
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:26:52.990
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:26:52.991
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:29:52.215
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:29:52.216
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:30:12.082
+!MESSAGE CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-12-30 17:30:12.082
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateErrorPages(WarValidator.java:698)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validate(WarValidator.java:255)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validate(UIWarValidator.java:96)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:335)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

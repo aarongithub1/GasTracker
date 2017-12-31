@@ -22,10 +22,10 @@ DROP TABLE IF EXISTS `gas_tracker` ;
 
 CREATE TABLE IF NOT EXISTS `gas_tracker` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `num_gallons` DOUBLE NULL,
-  `price_per_gallon` DOUBLE NULL,
-  `miles_driven` DOUBLE NULL,
-  `miles_per_gallon` DOUBLE NULL,
+  `num_gallons` DECIMAL(8,2) NULL,
+  `price_per_gallon` DECIMAL(8,2) NULL,
+  `miles_driven` DECIMAL(8,2) NULL,
+  `miles_per_gallon` DECIMAL(8,2) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 

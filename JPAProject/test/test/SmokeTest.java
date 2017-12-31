@@ -38,14 +38,14 @@ public class SmokeTest {
 		assertEquals(true, test);
 	}
 	
+	@Test
+	public void database_query_test() {
+		this.gas = em.find(Gas.class, 2);
+		assertEquals(20, gas.getNumGallons(), 0.001);
+	}
+	
 }
 
-
-//	@Test
-//	public void database_query_test() {
-//		this.quiz = em.find(Quiz.class, 1);
-//		assertEquals("updateTest1", quiz.getName());
-//	}
 //	
 //	@Test
 //	public void get_questions_from_database_test() {
