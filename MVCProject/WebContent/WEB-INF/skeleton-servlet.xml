@@ -21,6 +21,6 @@
 	<tx:annotation-driven transaction-manager="myTransactionManager" />
 	<mvc:annotation-driven />
 	
-	<bean id="GasDAO" class="data.GasDAOImpl" />
+	<!-- <bean id="GasDAO" class="data.GasDAOImpl" /> -->
 	
 </beans>

@@ -22,7 +22,6 @@ public class SmokeTest {
 	public void set_up() throws Exception {
 		this.emf = Persistence.createEntityManagerFactory("GasPU");
 		this.em = emf.createEntityManager();
-
 //		this.actor = em.find(Actor.class, 1);
 	}
 	
@@ -44,13 +43,5 @@ public class SmokeTest {
 		assertEquals(20, gas.getNumGallons(), 0.001);
 	}
 	
+	
 }
-
-//	
-//	@Test
-//	public void get_questions_from_database_test() {
-//		this.quiz = em.find(Quiz.class, 1);
-//		
-//		assertEquals(3, quiz.getQuestions().size());
-//	}
-
