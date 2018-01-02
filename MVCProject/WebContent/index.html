@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Hello Index.html</h1>
+        <div id="gas">div id="gas"</div>
+        
+        <form id="form1" name="gas1" action="rest/gas" method="GET">
+        		<button>list all items</button>
+		</form>
+		
+        <form id="form2" name="gas2" action="rest/gas" method="POST">
+            <input type="text" name="numGallons" placeholder="Number of Gallons"/>
+            <input type="text" name="PricePerGallon" placeholder="Price per Gallon"/>
+            <input type="text" name="MilesDriven" placeholder="Miles Driven"/>
+            <input type="text" name="mpg" placeholder="Miles per Gallon"/>
+            <input type="submit" name="submit" value="Create Item" />
+        </form>
+        
+        <div id="display" name="display">
+        <ul>
+        		<li id="li" name="li">list item</li>
+        </ul>
+        
+        </div>
+        
+        <script src="gas.js"></script>
+    </body>
+</html>

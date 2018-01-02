@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import data.GasDAO;
 import entities.Gas;
 
+
 @RestController
 public class GasController {
 	
@@ -69,7 +70,7 @@ public class GasController {
 	@RequestMapping(path="gas/{id}", method=RequestMethod.DELETE)
 	public boolean delete(@PathVariable int id, HttpServletResponse res) {
 		boolean result = gasDAO.delete(id);
-		System.out.println("Controller: " + result);
+//		System.out.println("Controller: " + result);
 		
 		if(result == false) {
 			res.setStatus(400);
@@ -81,6 +82,7 @@ public class GasController {
 		return result;
 		
 	}
+	
 	
 	
 }
