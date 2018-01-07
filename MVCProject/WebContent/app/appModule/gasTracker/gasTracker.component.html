@@ -1,11 +1,16 @@
 <!-- Create New Gas Item -->
-<form ng-show="!vm.selected">
-	<input type="text" ng-model="item.numGallons" placeholder="Number of Gallons"/>
-	<input type="text" ng-model="item.pricePerGallon" placeholder="Price per Gallon"/>
-	<input type="text" ng-model="item.milesDriven" placeholder="Miles Driven"/>
-	<input type="text" ng-model="item.mpg" placeholder="Miles per Gallon"/>
-	<input type="submit" ng-click="vm.createItem(item); item = {}" value="Create Item" />
-</form>
+<div ng-show="!vm.selected">
+	<h1>{{ 'Welcome to GasTracker!' }}</h1>
+	<h3>{{'Enter Data into fields to create a new item'}}</h3>
+
+	<form>
+		<input type="text" ng-model="item.numGallons" placeholder="Number of Gallons"/>
+		<input type="text" ng-model="item.pricePerGallon" placeholder="Price per Gallon"/>
+		<input type="text" ng-model="item.milesDriven" placeholder="Miles Driven"/>
+		<input type="text" ng-model="item.mpg" placeholder="Miles per Gallon"/>
+		<input type="submit" ng-click="vm.createItem(item); item = {}" value="Create Item" />
+	</form>
+</div>
 <br>
 
 <!-- Show Detailed View -->
@@ -30,28 +35,25 @@
   <input type="submit" ng-click="vm.updateGas(vm.editGas)" value="Save" />
 </form>
 
+
+
 <!-- Table of All Gas Items -->
-<table ng-show="!vm.selected">
-	<thead>
-		<tr>
-			<th>id</th>
-			<!-- <th>Gallons</th>
-			<th>Price per gallon</th>
-			<th>Miles driven</th>
-			<th>Miles per gallon</th> -->
-		</tr>
-	</thead>
-	<tbody>
-		<tr ng-repeat="item in vm.gas">
-			<td ng-click="vm.detailGas(item)">Item: {{item.id}}</td>
-			<!-- <td>{{item.numGallons}}</td>
-			<td>{{item.pricePerGallon}}</td>
-			<td>{{item.milesDriven}}</td>
-			<td>{{item.mpg}}</td> -->
-			<td><button ng-click="vm.deleteGas(item.id)">Delete</button></td>
-		</tr>
-	</tbody>
-</table>
+<div ng-show="!vm.selected">
+	<h3>Click on an Item to show Detailed view</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Item id</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in vm.gas">
+				<td ng-click="vm.detailGas(item)">Item: {{item.id}}</td>
+				<td><button ng-click="vm.deleteGas(item.id)">Delete</button></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 
 
