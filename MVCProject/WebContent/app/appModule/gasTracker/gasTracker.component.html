@@ -1,5 +1,5 @@
 <!-- Create New Gas Item -->
-<form>
+<form ng-show="!vm.selected">
 	<input type="text" ng-model="item.numGallons" placeholder="Number of Gallons"/>
 	<input type="text" ng-model="item.pricePerGallon" placeholder="Price per Gallon"/>
 	<input type="text" ng-model="item.milesDriven" placeholder="Miles Driven"/>
@@ -8,27 +8,60 @@
 </form>
 <br>
 
-<!-- Table of All Todo Items -->
-<table>
+<!-- Show Detailed View -->
+<div ng-show="vm.selected">
+	<h3>Item: "{{vm.selected.id}}"</h3>
+	<h3>Gallons: "{{vm.selected.numGallons}}"</h3>
+	<h3>PPG: "{{vm.selected.pricePerGallon}}"</h3>
+	<h3>Miles: "{{vm.selected.milesDriven}}"</h3>
+	<h3>MPG: "{{vm.selected.mpg}}"</h3>
+	
+	<button ng-click="vm.setEditGas(vm.selected)">Edit</button>
+	<button ng-click="vm.displayTable()">Back</button>
+</div>
+
+<!-- Edit Gas Item -->
+<form ng-show="vm.editGas">
+  <input type="text" ng-model="vm.editGas.numGallons" /><br />
+  <input type="text" ng-model="vm.editGas.pricePerGallon" /><br />
+  <input type="text" ng-model="vm.editGas.milesDriven" /><br />
+  <input type="text" ng-model="vm.editGas.mpg" /><br />
+  <input type="submit" ng-click="vm.setEditNull()" value="Cancel" />
+  <input type="submit" ng-click="vm.updateGas(vm.editGas)" value="Save" />
+</form>
+
+<!-- Table of All Gas Items -->
+<table ng-show="!vm.selected">
 	<thead>
 		<tr>
 			<th>id</th>
-			<th>Gallons</th>
-			<th>price per gallon</th>
-			<th>miles driven</th>
-			<th>miles per gallon</th>
+			<!-- <th>Gallons</th>
+			<th>Price per gallon</th>
+			<th>Miles driven</th>
+			<th>Miles per gallon</th> -->
 		</tr>
 	</thead>
 	<tbody>
 		<tr ng-repeat="item in vm.gas">
-			<td ng-click="vm.displayGas(todo)">{{item.id}}</td>
-			<td>{{item.numGallons}}</td>
+			<td ng-click="vm.detailGas(item)">Item: {{item.id}}</td>
+			<!-- <td>{{item.numGallons}}</td>
 			<td>{{item.pricePerGallon}}</td>
 			<td>{{item.milesDriven}}</td>
-			<td>{{item.mpg}}</td>
+			<td>{{item.mpg}}</td> -->
 			<td><button ng-click="vm.deleteGas(item.id)">Delete</button></td>
-			
 		</tr>
 	</tbody>
-	
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
