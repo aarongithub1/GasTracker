@@ -5,10 +5,17 @@ angular.module('appModule')
 		controller : function(gasService) {
 			
 			var vm = this;
-			
 			vm.selected = null;
-			
+			vm.totalButton = null;
 			vm.gas = [];
+			
+			var zeroTotals = function(){
+				vm.totalGal = 0;
+				vm.totalPrice = 0;
+				vm.totalMiles = 0;
+				vm.totalMPG = 0;
+				
+			}
 			
 			// Reload Updated List
 			var reload = function() {
@@ -30,6 +37,7 @@ angular.module('appModule')
 			//back button - show table
 			vm.displayTable = function() {
 				vm.selected = null;
+				vm.totalButton = null;
 			}
 			
 			//edit button - show edit form
@@ -40,6 +48,22 @@ angular.module('appModule')
 			//cancel button - hide edit form
 			vm.setEditNull = function() {
 				vm.editGas = null;
+			}
+			
+			//show Total Table
+			vm.showTotalTable = function() {
+				vm.totalButton = 1;
+			}
+			
+			//total all columns
+			vm.totalAllColumns = function() {
+				zeroTotals();
+				vm.gas.forEach(function(val){
+					vm.totalGal += val.numGallons;
+					vm.totalPrice += val.pricePerGallon;
+					vm.totalMiles += val.milesDriven;
+					vm.totalMPG += val.mpg;
+				})
 			}
 			
 			//------------- CUD --------------//

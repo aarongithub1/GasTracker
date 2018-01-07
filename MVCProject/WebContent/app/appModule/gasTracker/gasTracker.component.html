@@ -55,8 +55,44 @@
 	</table>
 </div>
 
+<!-- Total each column in table -->
+<div ng-show="!vm.totalButton">
+	<button ng-click="vm.showTotalTable()">Total All</button><br>
+</div>
 
+<div ng-show="vm.totalButton">
+	<h3>Total All Columns</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Item id</th>
+				<th>Gallons</th>
+				<th>PPG</th>
+				<th>Miles Driven</th>
+				<th>MPG</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in vm.gas">
+				<td>Item: {{item.id}}</td>
+				<td>{{item.numGallons}}</td>
+				<td>{{item.pricePerGallon}}</td>
+				<td>{{item.milesDriven}}</td>
+				<td>{{item.mpg}}</td>
+			</tr>
+			<tr>
+				<td>Total:</td>
+				<td>{{vm.totalGal}}</td>
+				<td>{{vm.totalPrice}}</td>
+				<td>{{vm.totalMiles}}</td>
+				<td>{{vm.totalMPG}}</td>
+			</tr>
+		<td><button ng-click="vm.totalAllColumns()">Total</button></td>
+		</tbody>
+	</table>
+	<button ng-click="vm.displayTable()">Back</button>
 
+</div>
 
 
 
