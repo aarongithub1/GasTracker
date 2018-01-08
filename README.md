@@ -1,25 +1,9 @@
-# rest-project-skeleton
-
 ### What is it?
-This is a Gradle project pre-configured so that you can start coding right away (and not have to fight through all of the config).
+This Program is Gas Tracker. It displays information from MySql RestFully to and index.html.
 
 ### How do you use it?
-* If you have not done so already, clone this repository to your `Desktop` (if you have already, be sure to pull).
+The App will list all the items in the gas_tracker database table.
+you have the option to do full CRUD operations on each item.
+Also there is an option to total all the columns in the table.
 
-* Copy this directory to another location on your computer. As an example, if I have this repository cloned to my Desktop and I wanted to copy the project files to my `~/SD` directory and name it 'myNewProject' I would:
-
-```bash
-scp -rp ~/Desktop/SD13/unit3/resources/rest-project-skeleton myNewProject
-```
-
-* Once you've copied the files, open the folder as a new Workspace in STS:
-  * In STS go to _file > Switch Workspace > {Select This Directory}_
-
-* Now that you are in the new workspace, you need to import the projects, you can do this in one step by going to _File > Import > Existing Gradle Project_
-  * Navigate to the project directory, and highlight the `MVCProject`. Importing the MVCProject will also import the JPAProject.
-
-* Now you should have both projects, run a Gradle refresh on the `MVCProject`.
-
-* Set up a server and you are good to go.
-
-* FINALLY!!!! In _JPAProject > META-INF > persistence.xml_ change the database url to the name of your database for your new project (and the username and password if you created a specific user).
+AWS deployment location: http://18.216.143.254/GasTrackerRest
